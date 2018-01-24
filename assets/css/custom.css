@@ -1,0 +1,117 @@
+body {
+	padding: 0px;
+	margin: 0px;
+}
+/*--------------CONTAINER-ROW-MARGIN-SET----------------*/
+
+.container-fluid-0pad-0mar {
+	margin: 0px;
+	padding: 0px;
+}
+
+.row-0pad-0mar {
+	margin: 0px;
+	padding: 0px;
+}
+
+.col-0pad-0mar {
+	margin: 0px;
+	padding: 0px;
+}
+
+/*--------------TOP-CONTACT-CSS-START----------------*/
+.top-contact-bg-color {
+	background-color: #000000;
+}
+
+.top-contact0 {
+	text-align: center;
+	color: #ffffff;
+}
+
+.top-contact {
+	margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 5px;
+    line-height: 1.5;
+}
+
+/*--------------DROPDOWN-NAVBAR-CSS-START----------------*/
+.iwind-logo {
+	width: 90px;
+	padding: 10px 10px;
+}
+
+.navbar-align li a {
+	line-height: 49px;
+}
+
+.navbar-toggle-btn {
+	margin-top: 23px;
+}
+
+.navbar-wrap {
+	background: none;
+	border: none;
+	margin-bottom: 0px;
+}
+/*--------------LANDING-DIV-CSS-START----------------*/
+.landing-img {
+	background-color: #000000;
+	position: relative;
+	text-align: center;
+}
+
+.landing-img img {
+	opacity: 0.7;
+}
+
+.iwind-text h2 {
+	position: absolute;
+	top: 10%;
+	width: 100%;
+	font-size: 55px;
+	color: #0bb4e6;
+}
+
+.iwind-text span {
+	color: #81c340;
+}
+
+.landing-div-button {
+	position: absolute;
+	top: 45%;
+	text-align:center;
+	width: 100%;
+
+}
+
+.landing-div-button-1 {
+	border-radius: 0px;
+	background: none;
+	color: #ffffff;
+}
+
+.landing-div-button-1:hover {
+	background: #59b300;
+	color: #ffffff;
+	border: 1px solid #59b300;
+
+}
+
+
+
+
+@media (max-width: 768px){
+	.navbar-align li a {
+		line-height: 20px;
+	}
+	.iwind-text h2 {
+		position: absolute;
+		top: 10%;
+		width: 100%;
+		font-size: 30px;
+		color: #0bb4e6;
+	}
+}
+
